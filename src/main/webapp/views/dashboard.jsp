@@ -20,7 +20,6 @@
                 url:'/chart',
                 success:function(result){
                     dashboard.display(result);
-                    console.log(result);
                 }
             });
         },
